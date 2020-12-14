@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id='center'>
+        <header>
+            <i>Magic Etch-A-Sketch Screen</i> 
+        </header>
+        <div id='grid'>
+        </div>
+        <div id='endContent'>
+            <div id='btnNum'>
+               <label for="number">
+                   Choose a Value
+                   <br>
+                   Then Hit the 'Submit' Button
+               </label>
+               <br><br>
+               <input id='inputNum' type="number" min='16' max='50' value="16">
+               <input type="submit" value="Submit" id="btn">
+               <br><br>
+            </div>
+            <div id='clr'>
+               <label for="hexColor">
+                   Choose A Color
+                   <br>
+                   Then Start Drawing !
+               </label>
+               <br><br>
+               <input type="color" value='#eeeee' id="hexColor">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
