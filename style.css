@@ -45,24 +45,17 @@ header {
     background: white;
 }
 
-/* #grid > div:hover {
-    background-color: blueviolet;
-} */
 
 
-.divGrid {
+#grid > div {
     border: 1px solid black;
+
 }
+
 .divGrid::before {
     color: white;
 }
-/* .divGrid:hover {
-    background-color: blueviolet;
-}
 
-.divGrid::after {
-    color: blueviolet;
-} */
 
 #endContent {
     display: inline-flex;
